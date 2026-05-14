@@ -1,0 +1,114 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  background-color: bisque;
+
+}
+
+#root {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px 30px;
+  justify-content: center;
+}
+
+.parent{
+    min-height: 350px;
+    width: 300px;
+    background-color: rgb(187, 187, 210);
+    border-radius: 10px;
+    padding: 30px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;  
+    justify-content: space-between;  
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.top img{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+.top button{
+    padding: 6px;
+    border-radius: 5px;
+    background-color: rgb(203, 166, 18);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    border-style: solid;
+    border-width: 1px;
+    
+}
+.top button img{
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+}
+
+.center small{
+    padding-left: 3px;
+    font-size: 10px;
+    color: dimgrey;
+}
+
+.tags{
+    margin-top: 8px;
+    font-size: 10px;
+    display: flex;
+    gap: 5px;
+}
+
+.center h5{
+    background-color: darkgray;
+    padding: 4px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+
+}
+
+.bottom{
+    border-top-style: solid;
+    border-width: 0.5px;
+    border-color: darkcyan;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.bottom button{
+    padding: 1px 2px;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(221, 221, 221);
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 1px;
+}
